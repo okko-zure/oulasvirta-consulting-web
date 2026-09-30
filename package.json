@@ -15,7 +15,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
+    "lint": "eslint . && node scripts/check-css-classes.mjs",
     "typecheck": "next typegen && tsc --noEmit",
     "smoke": "node scripts/smoke-test.mjs",
     "check": "npm run lint && npm run typecheck && npm run build && npm run smoke"

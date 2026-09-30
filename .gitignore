@@ -49,3 +49,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 
+
+# Local design-review hook cache (machine specific)
+.impeccable/
+
