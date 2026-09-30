@@ -21,4 +21,6 @@ export const site = {
    */
   contactFormAction: 'https://formsubmit.co/katja@oulasvirta.com',
   themeColor: '#122530',
+  /** Picture shown when a page is shared (1200 x 630, in public/). */
+  socialImage: { path: '/og-image.png', width: 1200, height: 630 },
 } as const;

@@ -1,3 +1,5 @@
+import { NotFoundPage } from '@/components/pages/NotFoundPage';
+
 export default function NotFound() {
-  return <main><h1>fi not found</h1></main>;
+  return <NotFoundPage locale="fi" />;
 }

@@ -20,9 +20,14 @@ interface PageMetadataInput {
  * Metadata shared by every page: title, description, canonical URL, hreflang
  * alternates, Open Graph and Twitter card. Relative URLs are resolved against
  * `metadataBase` (see app/layout.tsx). Nothing here ever sets `noindex`.
+ *
+ * The social image is listed explicitly on purpose: a page-level `openGraph`
+ * object replaces the one it would inherit, so an image that is only declared
+ * at the top of the app would be lost on every page.
  */
 export function pageMetadata({ locale, paths, title, description, absoluteTitle, article }: PageMetadataInput): Metadata {
   const shownTitle = absoluteTitle ? title : `${title} | ${site.name}`;
+  const image = { url: site.socialImage.path, width: site.socialImage.width, height: site.socialImage.height, alt: site.name };
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,
@@ -43,12 +48,14 @@ export function pageMetadata({ locale, paths, title, description, absoluteTitle,
       description,
       locale: openGraphLocale[locale],
       alternateLocale: locales.filter((other) => other !== locale).map((other) => openGraphLocale[other]),
+      images: [image],
       ...(article ? { publishedTime: article.published, authors: [site.person.name] } : {}),
     },
     twitter: {
       card: 'summary_large_image',
       title: shownTitle,
       description,
+      images: [{ url: image.url, alt: image.alt }],
     },
   };
 }

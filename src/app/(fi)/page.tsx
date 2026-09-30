@@ -1,3 +1,7 @@
+import { HomePage, homeMetadata } from '@/components/pages/HomePage';
+
+export const metadata = homeMetadata('fi');
+
 export default function Page() {
-  return <main><h1>home fi</h1></main>;
+  return <HomePage locale="fi" />;
 }
