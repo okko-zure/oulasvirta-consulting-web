@@ -1,0 +1,56 @@
+{
+  "fi": {
+    "title": "Tietosuoja",
+    "description": "Oulasvirta Consultingin yhteydenottolomakkeen ja verkkosivuston tietosuojatiedot.",
+    "back": "Takaisin etusivulle",
+    "eyebrow": "TIETOSUOJA",
+    "updated": "Päivitetty 28.9.2026",
+    "sections": [
+      {"heading":"Rekisterinpitäjä", "paragraphs":["Rekisterinpitäjä on SK-Monitoimialat Oy, jonka aputoiminimi on Oulasvirta Consulting (Y-tunnus 3019497-7). Yhteyshenkilö tietosuoja-asioissa on Katja Oulasvirta.","Sähköposti: katja@oulasvirta.com"]},
+      {"heading":"Mihin tietoja käytetään", "paragraphs":["Käytän yhteydenottolomakkeella annettuja tietoja yhteydenottoon vastaamiseen, mahdollisen yhteistyön arviointiin ja sovittujen jatkotoimien valmistelemiseen. Sivuston teknisiä tietoja voidaan käsitellä palvelun turvallisuuden ja roskapostin torjunnan vuoksi."]},
+      {"heading":"Mitä tietoja käsitellään", "paragraphs":["Lomakkeella voidaan käsitellä nimeä, sähköpostiosoitetta, yrityksen nimeä, viestin aihetta, viestin sisältöä ja lomakkeen kielivalintaa. FormSubmit-viestinvälityspalvelu ja sivuston tekninen infrastruktuuri voivat käsitellä lisäksi yhteydenoton teknisiä tietoja.","Älä lähetä lomakkeella asiakkaiden henkilötietoja, erityisiä henkilötietoryhmiä, luottamuksellisia asiakirjoja tai muuta salassa pidettävää aineistoa."]},
+      {"heading":"Käsittelyn oikeusperuste", "paragraphs":["Käsittely perustuu tietosuoja-asetuksen 6 artiklan 1 kohdan f alakohdan mukaiseen oikeutettuun etuun: yhteydenottojen vastaanottamiseen, niihin vastaamiseen ja palvelun turvalliseen ylläpitoon. Jos yhteydenotto johtaa sopimuksen valmisteluun, oikeusperusteena voi olla myös 6 artiklan 1 kohdan b alakohta."]},
+      {"heading":"Vastaanottajat ja palveluntarjoajat", "paragraphs":["Lomakeviestit välitetään FormSubmit-palvelun kautta Katja Oulasvirran sähköpostiin. Sivuston teknisestä ylläpidosta ja sisällön toimittamisesta vastaavat palveluntarjoajat käsittelevät tietoja vain omien tehtäviensä edellyttämässä laajuudessa.","FormSubmitin ajantasaiset tietosuojaehdot löytyvät palveluntarjoajan omalta sivulta. Palveluntarjoajan mahdolliset käsittelypaikat, siirtomekanismit ja säilytysajat määräytyvät sen ajantasaisten ehtojen mukaan.","<a href=\"https://formsubmit.co/privacy.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">FormSubmitin tietosuojatiedot ↗</a>"]},
+      {"heading":"Säilytysaika", "paragraphs":["Säilytän yhteydenoton tiedot enintään 12 kuukautta yhteydenoton päättymisestä, ellei pidempi säilytys ole tarpeen sopimuksen, lakisääteisen velvoitteen tai oikeusvaateen hoitamiseksi. FormSubmitin oma säilytysaika määräytyy sen ajantasaisten ehtojen mukaan."]},
+      {"heading":"Evästeet ja seuranta", "paragraphs":["Sivusto ei käytä analytiikka- tai markkinointievästeitä. Sivuston tekninen palveluntarjoaja voi käyttää palvelun toiminnan kannalta välttämättömiä teknisiä ratkaisuja."]},
+      {"heading":"Rekisteröidyn oikeudet", "paragraphs":["Voit pyytää pääsyä omiin tietoihisi, tietojen oikaisua tai poistamista, käsittelyn rajoittamista sekä vastustaa käsittelyä. Lähetä pyyntö osoitteeseen katja@oulasvirta.com. Vastaamme ilman aiheetonta viivytystä.","Sinulla on oikeus tehdä valitus Suomen tietosuojavaltuutetulle, jos katsot, että henkilötietojasi käsitellään lainvastaisesti."]},
+      {"heading":"Muutokset tähän tietosuojatietoon", "paragraphs":["Päivitän tätä tietosuojatietoa, jos sivuston toiminta, palveluntarjoajat tai henkilötietojen käsittely muuttuvat."]}
+    ]
+  },
+  "en": {
+    "title": "Privacy",
+    "description": "Privacy information for Oulasvirta Consulting's contact form and website.",
+    "back": "Back to home",
+    "eyebrow": "PRIVACY",
+    "updated": "Updated 28 September 2026",
+    "sections": [
+      {"heading":"Controller", "paragraphs":["The controller is SK-Monitoimialat Oy, operating under the auxiliary business name Oulasvirta Consulting (Business ID 3019497-7). The contact person for privacy matters is Katja Oulasvirta.","Email: katja@oulasvirta.com"]},
+      {"heading":"How information is used", "paragraphs":["Information submitted through the contact form is used to respond to enquiries, assess possible cooperation and prepare agreed next steps. Technical information may be processed to keep the service secure and prevent spam."]},
+      {"heading":"Information processed", "paragraphs":["The form may process your name, email address, company, topic, message and language selection. FormSubmit and the site's technical infrastructure may also process technical information connected with the enquiry.","Please do not send customer personal data, special categories of personal data, confidential documents or other protected material through the form."]},
+      {"heading":"Legal basis", "paragraphs":["Processing is based on Article 6(1)(f) of the GDPR, our legitimate interest in receiving and answering enquiries and maintaining a secure service. Where an enquiry leads to steps before entering into a contract, Article 6(1)(b) may also apply."]},
+      {"heading":"Recipients and service providers", "paragraphs":["Form messages are forwarded through FormSubmit to Katja Oulasvirta's email. Technical service providers that host and deliver the site may process information only to the extent required for their services.","FormSubmit's current privacy terms govern its processing locations, transfer mechanisms and retention periods.","<a href=\"https://formsubmit.co/privacy.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">FormSubmit privacy information ↗</a>"]},
+      {"heading":"Retention", "paragraphs":["Enquiry information is retained for no more than 12 months after the enquiry is closed, unless a longer period is needed for a contract, legal obligation or legal claim. FormSubmit's own retention period is governed by its current terms."]},
+      {"heading":"Cookies and analytics", "paragraphs":["The site does not use analytics or marketing cookies. The technical service provider may use strictly necessary technical measures to operate the service."]},
+      {"heading":"Your rights", "paragraphs":["You may request access to your data, rectification or erasure, restriction of processing, and object to processing. Send requests to katja@oulasvirta.com. You also have the right to complain to the Finnish Data Protection Ombudsman."]},
+      {"heading":"Changes", "paragraphs":["This notice may be updated when the site's functionality, service providers or processing activities change."]}
+    ]
+  },
+  "es": {
+    "title": "Privacidad",
+    "description": "Información de privacidad del formulario de contacto y del sitio web de Oulasvirta Consulting.",
+    "back": "Volver al inicio",
+    "eyebrow": "PRIVACIDAD",
+    "updated": "Actualizado el 28 de septiembre de 2026",
+    "sections": [
+      {"heading":"Responsable", "paragraphs":["El responsable es SK-Monitoimialat Oy, que opera con el nombre comercial auxiliar Oulasvirta Consulting (Business ID 3019497-7). La persona de contacto para asuntos de privacidad es Katja Oulasvirta.","Correo electrónico: katja@oulasvirta.com"]},
+      {"heading":"Uso de la información", "paragraphs":["La información enviada mediante el formulario se utiliza para responder consultas, valorar una posible colaboración y preparar los pasos acordados. También puede tratarse información técnica para mantener el servicio seguro y evitar spam."]},
+      {"heading":"Datos tratados", "paragraphs":["El formulario puede tratar su nombre, correo electrónico, empresa, asunto, mensaje e idioma. FormSubmit y la infraestructura técnica del sitio también pueden tratar información técnica relacionada con la consulta.","No envíe mediante el formulario datos personales de clientes, categorías especiales de datos, documentos confidenciales ni otra información protegida."]},
+      {"heading":"Base jurídica", "paragraphs":["El tratamiento se basa en el interés legítimo previsto en el artículo 6.1.f del RGPD: recibir y responder consultas y mantener un servicio seguro. Si la consulta da lugar a medidas precontractuales, también puede aplicarse el artículo 6.1.b."]},
+      {"heading":"Destinatarios y proveedores", "paragraphs":["Los mensajes se envían a través de FormSubmit al correo de Katja Oulasvirta. Los proveedores técnicos que alojan y entregan el sitio pueden tratar información únicamente en la medida necesaria para sus servicios.","Las condiciones de privacidad vigentes de FormSubmit determinan sus lugares de tratamiento, mecanismos de transferencia y plazos de conservación.","<a href=\"https://formsubmit.co/privacy.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Información de privacidad de FormSubmit ↗</a>"]},
+      {"heading":"Conservación", "paragraphs":["La información de la consulta se conserva como máximo 12 meses después de cerrarla, salvo que sea necesario conservarla durante más tiempo por un contrato, una obligación legal o una reclamación. El plazo propio de FormSubmit se rige por sus condiciones vigentes."]},
+      {"heading":"Cookies y analítica", "paragraphs":["El sitio no utiliza cookies de analítica ni de marketing. El proveedor técnico puede utilizar medidas estrictamente necesarias para prestar el servicio."]},
+      {"heading":"Sus derechos", "paragraphs":["Puede solicitar acceso a sus datos, rectificación o supresión, limitación del tratamiento y oponerse al tratamiento. Envíe sus solicitudes a katja@oulasvirta.com. También puede presentar una reclamación ante la autoridad finlandesa de protección de datos."]},
+      {"heading":"Cambios", "paragraphs":["Esta información puede actualizarse si cambian la funcionalidad del sitio, los proveedores o las actividades de tratamiento."]}
+    ]
+  }
+}

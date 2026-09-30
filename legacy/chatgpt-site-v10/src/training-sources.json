@@ -1,0 +1,41 @@
+[
+  {
+    "event": "Tilintarkastajien kesäpäivät, Turku",
+    "event_date": "2026-08-28",
+    "date_evidence": "The date is visible on the presentation slide in the photograph.",
+    "post_published": "2026-08-31",
+    "source": "https://www.linkedin.com/posts/katja-oulasvirta-8564631_tilintarkastus-rahanpesuntorjunta-aml-activity-7500104845719310337-qmju",
+    "asset": "dist/assets/koulutus-kesapaivat-2026.jpg"
+  },
+  {
+    "event": "Rahanpesupäivä, Alma Insight",
+    "event_month": "2025-11",
+    "date_evidence": "The recap was published on 18 November 2025. The website uses the month, not an independently unverified event day.",
+    "post_published": "2025-11-18",
+    "source": "https://www.linkedin.com/posts/katja-oulasvirta-8564631_rahanpesup%C3%A4iv%C3%A4-almainsight-oulasvirtaconsulting-activity-7396550783581966336-MZ2h",
+    "asset": "dist/assets/koulutus-rahanpesupaiva-2025.jpg"
+  },
+  {
+    "event": "Isännöintiliiton webinaari",
+    "event_date": "2025-06-03",
+    "source": "https://www.linkedin.com/posts/katja-oulasvirta-8564631_oulasvirtaconsulting-is%C3%A4nn%C3%B6intiliitto-activity-7335613785010753537-E8xb",
+    "asset": "dist/assets/koulutus-isannointiliitto.jpg"
+  },
+  {
+    "event": "Sijoitusakatemia, AML & talousrikollisuuden torjunta",
+    "event_date": "2024-11-28",
+    "date_evidence": "The date of Katja's presentation is visible on the slide in the photograph.",
+    "post_published": "2024-11-29",
+    "source": "https://www.linkedin.com/posts/katja-oulasvirta-8564631_sijoitusakatemia-aml-pakotteet-activity-7268170154012758016-mrIL",
+    "presentation": "Text example and source link; close-up photo removed at the owner’s request."
+  },
+  {
+    "event": "Juristiliitto, Rahanpesun erityiskysymykset",
+    "event_date": "2025-04-25",
+    "date_evidence": "The event announcement and same-day recap agree on the date.",
+    "post_published": "2025-04-25",
+    "source": "https://www.linkedin.com/posts/katja-oulasvirta-8564631_oulasvirtaconsulting-almainsight-almakoulutus-activity-7321515192322785281-SSKD",
+    "asset": "dist/assets/koulutus-juristiliitto-2025.jpg",
+    "presentation": "Full-frame wide photograph selected by the owner."
+  }
+]
