@@ -1,0 +1,10 @@
+# Keep line endings identical on every machine (Windows, macOS, Linux, CI).
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico binary
