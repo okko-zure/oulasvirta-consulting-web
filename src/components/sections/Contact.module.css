@@ -1,0 +1,418 @@
+/* Contact section and enquiry form.
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.contactSection {
+  background: var(--ink-deep);
+  color: #c8d5dd;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1.3fr .7fr;
+  gap: 120px;
+}
+
+.contactSection :global(.eyebrow) {
+  color: var(--gold);
+}
+
+.contactSection h2 {
+  color: white;
+  margin-top: 25px;
+}
+
+.contactSection h2 em {
+  color: var(--gold);
+}
+
+.contactSection :global(.lead) {
+  margin-top: 28px;
+}
+
+.contactSection :global(.lead) + p {
+  margin-top: 20px;
+}
+
+.contactSection :global(.button) {
+  margin-top: 30px;
+}
+
+.contactSection address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  align-self: center;
+  border-left: 1px solid #ffffff2c;
+  padding-left: 40px;
+  overflow-wrap: anywhere;
+}
+
+.contactSection address > strong {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: white;
+}
+
+.contactSection address > span {
+  font-size: .9rem;
+  margin-bottom: 25px;
+}
+
+.contactSection address > a:not(:global(.text-link)) {
+  color: var(--gold);
+  font-size: 1.04rem;
+  line-height: 2.05;
+}
+
+.contactSection address > p {
+  font-size: .94rem;
+  margin-top: 25px;
+}
+
+.contactSection address > :global(.text-link) {
+  font-size: .86rem;
+  margin-top: 24px;
+  align-self: start;
+}
+
+@media (max-width: 1100px) {
+  .contactGrid {
+    gap: 55px;
+  }
+
+  .contactSection address {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 820px) {
+  .contactGrid {
+    gap: 35px;
+    grid-template-columns: 1.2fr 1fr;
+  }
+
+  .contactSection h2 {
+    font-size: 2.6rem;
+  }
+
+  .contactSection :global(.lead) {
+    font-size: 1.13rem;
+  }
+
+  .contactSection address {
+    padding-left: 23px;
+  }
+
+  .contactSection address > strong {
+    font-size: 1.6rem;
+  }
+
+  .contactSection address > a:not(:global(.text-link)) {
+    font-size: .94rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .contactSection h2 {
+    font-size: 2.45rem;
+  }
+
+  .contactSection :global(.lead) {
+    font-size: 1.17rem;
+  }
+
+  .contactSection address {
+    border-left: 0;
+    border-top: 1px solid #ffffff2c;
+    padding: 28px 0 0;
+  }
+
+  .contactSection address > strong {
+    font-size: 1.8rem;
+  }
+
+  .contactSection address > a:not(:global(.text-link)) {
+    font-size: 1.08rem;
+  }
+
+  .contactSection address > :global(.text-link) {
+    font-size: .92rem;
+  }
+}
+
+.contactGrid {
+  grid-template-columns: 1fr 1.08fr;
+  gap: 72px;
+  align-items: start;
+}
+
+.contactCopy :global(.lead) {
+  font-size: 1.15rem;
+}
+
+.contactCopy address {
+  margin-top: 36px;
+  border-left: 0;
+  border-top: 1px solid #ffffff2c;
+  padding: 24px 0 0;
+}
+
+.contactCopy address > strong {
+  font-size: 1.4rem;
+}
+
+.contactCopy address > span {
+  margin-bottom: 12px;
+}
+
+.contactForm {
+  padding: 32px;
+  background: #172e3a;
+  border: 1px solid #48606a;
+  scroll-margin-top: 112px;
+}
+
+.contactForm:target {
+  border-color: var(--gold);
+}
+
+.contactForm h3 {
+  font-family: var(--serif);
+  color: #fff;
+  font-size: 1.85rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -.025em;
+}
+
+.formIntro {
+  font-size: .95rem;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  color: #c9d5dc;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+  gap: 7px;
+  min-width: 0;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.formRow .formField {
+  margin-top: 0;
+}
+
+.contactForm label {
+  font-size: .86rem;
+  font-weight: 500;
+  color: #f4f7f9;
+}
+
+.optional {
+  font-size: .75rem;
+  font-weight: 400;
+  color: #d0dbe1;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm textarea {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #82969f;
+  background: #f8fafb;
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+  border-radius: 2px;
+  padding: 11px 12px;
+  line-height: 1.5;
+}
+
+.contactForm textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contactForm input:focus-visible,
+.contactForm select:focus-visible,
+.contactForm textarea:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.contactForm .fieldHint {
+  font-size: .76rem;
+  line-height: 1.55;
+  color: #bbcbd4;
+  margin: 3px 0 0;
+}
+
+.formPrivacy {
+  font-size: .78rem;
+  color: #c9d5dc;
+  margin-top: 22px;
+}
+
+.contactForm :global(.button) {
+  margin-top: 18px;
+  border: 0;
+  cursor: pointer;
+}
+
+.contactForm .submitLabel {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contactForm :global(.button):disabled {
+  opacity: .65;
+  cursor: wait;
+}
+
+.formStatus {
+  font-size: .92rem;
+  line-height: 1.55;
+  margin-top: 20px;
+}
+
+.formStatus:empty {
+  display: none;
+}
+
+.formStatus[data-state=error],
+.formStatus[data-state=invalid] {
+  border-left: 3px solid #f0b8a8;
+  padding-left: 13px;
+  color: #fff2ee;
+}
+
+.formStatus[data-state=success] {
+  border-left: 3px solid var(--gold);
+  padding-left: 13px;
+  color: var(--gold-light);
+}
+
+.formHoneypot {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.formStatus:focus,
+.contactForm h3:focus {
+  outline: none;
+}
+
+@media (max-width: 1200px) {
+  .contactGrid {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 820px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .contactCopy {
+    max-width: 660px;
+  }
+
+  .contactForm {
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .contactCopy address {
+    padding-top: 22px;
+  }
+
+  .contactSection h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contactSection h2 {
+    font-size: 2.45rem;
+  }
+
+  .contactForm {
+    padding: 25px 20px;
+  }
+
+  .contactForm h3 {
+    font-size: 1.7rem;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .contactForm :global(.button) {
+    width: 100%;
+  }
+
+  .contactCopy address > a:not(:global(.text-link)) {
+    font-size: 1.04rem;
+  }
+
+  .formIntro {
+    font-size: .94rem;
+  }
+
+  .contactForm .fieldHint {
+    font-size: .8rem;
+  }
+}
+
+.formEmailOption {
+  margin-top: 18px;
+  font-size: .9rem;
+}
+
+.formEmailOption a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.formEmailOption span {
+  display: block;
+  color: #c9d5dc;
+  margin-top: 5px;
+  font-size: .8rem;
+}
+
+.formStatus[data-state=activation],
+.formStatus[data-state=limited] {
+  border-left: 3px solid #f0b8a8;
+  padding-left: 13px;
+  color: #fff2ee;
+}
+
+.formPrivacy a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

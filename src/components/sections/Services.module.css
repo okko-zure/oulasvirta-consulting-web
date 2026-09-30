@@ -1,0 +1,121 @@
+/* Expert services (expandable list).
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.servicesLayout {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 80px;
+}
+
+.servicesHeading h2 {
+  font-size: clamp(2rem, 3.4vw, 3.15rem);
+}
+
+.servicesHeading p {
+  margin-top: 24px;
+}
+
+.servicesHeading :global(.text-link) {
+  margin-top: 19px;
+  font-size: .9rem;
+}
+
+.serviceList details {
+  border-bottom: 1px solid var(--line);
+}
+
+.serviceList details:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.serviceList summary {
+  display: grid;
+  grid-template-columns: 30px 1fr 20px;
+  align-items: center;
+  gap: 19px;
+  padding: 26px 0;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.serviceIndex {
+  font-size: .77rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.plus {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--gold-dark);
+}
+
+.serviceList details[open] .plus {
+  font-size: 0;
+}
+
+.serviceList details[open] .plus:after {
+  content: "−";
+  font-size: 1.6rem;
+}
+
+.serviceBody {
+  padding: 0 20px 30px 49px;
+  font-size: .96rem;
+  color: var(--muted);
+}
+
+.serviceBody ul {
+  padding-left: 18px;
+  margin: 20px 0;
+}
+
+.serviceBody li + li {
+  margin-top: 10px;
+}
+
+.serviceBody :global(.text-link) {
+  font-size: .9rem;
+  color: var(--ink);
+}
+
+@media (max-width: 1100px) {
+  .servicesLayout {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 820px) {
+  .servicesLayout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .servicesHeading {
+    max-width: 640px;
+  }
+
+  .servicesHeading h2 {
+    font-size: 2.65rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesHeading h2 {
+    font-size: 2.35rem;
+  }
+
+  .serviceList summary {
+    gap: 12px;
+    grid-template-columns: 23px 1fr 19px;
+    font-size: 1.02rem;
+    padding-block: 24px;
+  }
+
+  .serviceBody {
+    padding: 0 8px 26px 35px;
+    font-size: .98rem;
+  }
+}

@@ -1,0 +1,70 @@
+/* Site footer.
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.siteFooter {
+  background: var(--ink-deep);
+  color: #b3c2ca;
+  font-size: .78rem;
+}
+
+.footerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding-top: 35px;
+  border-top: 1px solid #ffffff25;
+}
+
+.footerInner > p {
+  font-size: .78rem;
+  line-height: 1.7;
+}
+
+.footerMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-block: 40px 24px;
+  color: #a8b9c3;
+  font-size: .75rem;
+}
+
+@media (max-width: 1100px) {
+  .footerInner {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 820px) {
+  .footerInner {
+    flex-wrap: wrap;
+  }
+
+  .footerInner > p {
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerInner {
+    align-items: start;
+    gap: 27px;
+    flex-direction: column;
+  }
+
+  .footerInner > p {
+    font-size: .81rem;
+  }
+
+  .footerInner > a:last-child {
+    font-size: .9rem;
+  }
+
+  .footerMeta {
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 29px;
+    font-size: .78rem;
+  }
+}

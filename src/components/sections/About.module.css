@@ -1,0 +1,100 @@
+/* About section.
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.aboutSection {
+  background: var(--wash);
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1.35fr .85fr;
+  gap: 100px;
+}
+
+.aboutGrid h2 {
+  margin-top: 26px;
+  font-size: clamp(2.2rem, 3.6vw, 3.25rem);
+}
+
+.aboutGrid :global(.lead) {
+  margin-top: 26px;
+}
+
+.aboutGrid p:not(:global(.lead)):not(:global(.eyebrow)) {
+  margin-top: 20px;
+}
+
+.aboutGrid :global(.text-link) {
+  margin-top: 25px;
+}
+
+.expertisePanel {
+  border: 1px solid #ccd7dd;
+  border-left: 3px solid var(--gold);
+  padding: 40px 30px;
+  align-self: center;
+  background: #fff;
+}
+
+.expertisePanel :global(.eyebrow) {
+  color: var(--muted);
+}
+
+.expertisePanel > p {
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--ink);
+  letter-spacing: -.025em;
+}
+
+.expertiseBottom {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: .94rem;
+}
+
+.expertiseBottom span {
+  color: var(--muted);
+  font-size: .84rem;
+}
+
+@media (max-width: 1100px) {
+  .aboutGrid {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 820px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .expertisePanel {
+    padding: 30px;
+    max-width: 560px;
+  }
+
+  .expertisePanel > p {
+    font-size: 1.65rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutGrid h2 {
+    font-size: 2.35rem;
+  }
+
+  .expertisePanel {
+    padding: 26px;
+  }
+
+  .expertisePanel > p {
+    font-size: 1.48rem;
+  }
+}

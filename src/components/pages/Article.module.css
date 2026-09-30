@@ -1,0 +1,80 @@
+/* Article pages.
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.articleLayout {
+  max-width: 840px;
+  padding-block: 55px 85px;
+}
+
+.articleArchiveNote {
+  margin-block: 30px;
+  padding: 18px 22px;
+  background: var(--wash);
+  border-left: 3px solid var(--gold);
+  font-size: .9rem;
+  color: var(--muted);
+}
+
+.articleBody {
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.articleBody p + p,
+.articleBody ul + p {
+  margin-top: 22px;
+}
+
+.articleBody h2 {
+  font-family: var(--serif);
+  font-size: 1.85rem;
+  letter-spacing: -.02em;
+  line-height: 1.3;
+  margin: 38px 0 18px;
+}
+
+.articleBody ul {
+  padding-left: 25px;
+  margin-block: 22px;
+}
+
+.articleBody li + li {
+  margin-top: 15px;
+}
+
+.articleBody a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.articleContact {
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+@media (max-width: 820px) {
+  .articleLayout {
+    max-width: 760px;
+  }
+}
+
+@media (max-width: 600px) {
+  .articleLayout {
+    padding-block: 35px 55px;
+  }
+
+  .articleArchiveNote {
+    padding: 16px 18px;
+  }
+
+  .articleBody {
+    font-size: 1rem;
+  }
+
+  .articleContact :global(.button) {
+    max-width: 100%;
+    font-size: .95rem;
+  }
+}

@@ -1,0 +1,223 @@
+/* Sectors section (banks, exporters, accounting, property management, gambling).
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.sectorSection {
+  padding-top: 68px;
+}
+
+.sectorSection > :global(.eyebrow) {
+  color: var(--muted);
+  margin-bottom: 25px;
+}
+
+.sectorSection h2 {
+  font-size: clamp(2.2rem, 3.5vw, 3.15rem);
+}
+
+.sectorLead {
+  max-width: 770px;
+  margin-top: 23px;
+  font-size: 1.13rem;
+}
+
+.sectorGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  margin-top: 33px;
+}
+
+.sectorGrid article {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
+
+.sectorGrid h3 {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.sectorGrid p {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.sectorGrid :global(.text-link) {
+  font-size: .9rem;
+  margin-top: 17px;
+}
+
+@media (max-width: 1050px) {
+  .sectorGrid {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectorSection {
+    padding-top: 48px;
+  }
+
+  .sectorSection h2 {
+    font-size: 2.25rem;
+  }
+
+  .sectorLead {
+    font-size: 1.06rem;
+  }
+
+  .sectorGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 28px;
+  }
+
+  .sectorGrid h3 {
+    font-size: 1.6rem;
+  }
+
+  .sectorGrid :global(.text-link) {
+    font-size: .9rem;
+  }
+}
+
+.sectorGrid {
+  row-gap: 32px;
+}
+
+.sectorGrid .sectorPrimary {
+  grid-column: 1/-1;
+  background: var(--wash);
+  border-top: 2px solid var(--gold);
+  padding: 28px 32px;
+}
+
+.sectorPrimary p {
+  max-width: 900px;
+}
+
+.sectorContact {
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .sectorGrid .sectorPrimary {
+    padding: 24px;
+  }
+}
+
+.sectorGrid .sectorExport {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 40px;
+  padding: 30px 32px;
+  background: #122530;
+  color: white;
+  border-top: 2px solid var(--gold);
+}
+
+.sectorExport :global(.eyebrow) {
+  color: var(--gold);
+  font-size: .75rem;
+  margin-bottom: 12px;
+}
+
+.sectorExport h3 {
+  color: white;
+}
+
+.sectorGrid .sectorExport p:not(:global(.eyebrow)) {
+  color: #d5dfe4;
+}
+
+.sectorExport ul {
+  padding-left: 19px;
+  color: #d5dfe4;
+  font-size: 1rem;
+}
+
+.sectorExport li + li {
+  margin-top: 10px;
+}
+
+.sectorGrid .sectorExport :global(.text-link) {
+  color: var(--gold);
+  margin-top: 22px;
+}
+
+@media (max-width: 820px) {
+  .sectorGrid .sectorExport {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectorGrid .sectorExport {
+    padding: 24px;
+  }
+}
+
+.exportCase {
+  grid-column: 1/-1;
+  border: 1px solid #d3c398;
+  background: #f8f7f2;
+  padding: 30px 32px;
+  display: grid;
+  grid-template-columns: .72fr 1.28fr;
+  column-gap: 38px;
+  row-gap: 12px;
+  margin-top: 2px;
+}
+
+.exportCase :global(.eyebrow) {
+  color: var(--gold-dark);
+  grid-column: 1/-1;
+}
+
+.exportCase h3 {
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 400;
+  grid-column: 1/-1;
+}
+
+.exportCase p:not(:global(.eyebrow)):not(.caseNote) {
+  font-size: .97rem;
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.exportCase .caseNote {
+  grid-column: 1/-1;
+  font-size: .79rem;
+  color: var(--muted);
+  border-top: 1px solid #ddd6c4;
+  padding-top: 13px;
+  margin-top: 4px;
+}
+
+@media (max-width: 820px) {
+  .exportCase {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .exportCase {
+    padding: 23px 20px;
+  }
+
+  .exportCase h3 {
+    font-size: 1.5rem;
+  }
+
+  .exportCase p:not(:global(.eyebrow)):not(.caseNote) {
+    font-size: .96rem;
+  }
+}

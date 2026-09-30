@@ -1,0 +1,32 @@
+/* Back link and heading block of the article and privacy pages.
+ * Migrated from the ChatGPT Sites prototype stylesheet; the order of the rules is unchanged. */
+
+.articleBack {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.articleHeading :global(.eyebrow) {
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.articleHeading h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.25rem, 4.5vw, 3.7rem);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.articleMeta {
+  margin-top: 25px;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+@media (max-width: 600px) {
+  .articleBack {
+    margin-bottom: 30px;
+  }
+}
