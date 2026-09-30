@@ -1,0 +1,40 @@
+/* "Page not found" pages.
+ * Same reading width as the article pages. */
+
+.notFound {
+  max-width: 840px;
+  padding-block: 55px 110px;
+}
+
+.text {
+  margin-top: 30px;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+/* Short notes in the other languages, shown on the page that has no language of its own. */
+.otherLanguage {
+  margin-top: 46px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+
+.otherLanguage h2 {
+  font-size: 1.6rem;
+  letter-spacing: -.02em;
+  line-height: 1.3;
+}
+
+.otherLanguage p {
+  margin-top: 12px;
+}
+
+.otherLanguage :global(.text-link) {
+  margin-top: 14px;
+}
+
+@media (max-width: 600px) {
+  .notFound {
+    padding-block: 35px 80px;
+  }
+}
